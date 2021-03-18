@@ -1,0 +1,92 @@
+.comments .swiper-container .swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.comments .swiper-container .swiper-slide {
+    transition: 0.5s;
+}
+
+.comments .swiper-container .swiper-slide .slider-item-container {
+    background-color: #ffffff;
+}
+
+.comments .swiper-container .swiper-slide .slider-content h4 {
+    color: #212353;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.comments .swiper-container .swiper-slide .slider-content a {
+    display: block;
+    font-size: 14px;
+    color: #9C69E2;
+    margin-bottom: 20px;
+}
+
+.comments .swiper-container .swiper-slide .slider-content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #4B5D68;
+}
+
+
+.swiper-pagination {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #F063B8;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .comments .swiper-container .swiper-wrapper {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .comments .swiper-container .swiper-slide {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .comments .swiper-container .swiper-slide.swiper-slide-active {
+        width: 645px;
+    }
+
+    .comments .swiper-container .swiper-slide {
+        width: 400px;
+    }
+
+    .comments .swiper-container .swiper-slide .slider-item-container {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        padding: 50px 25px;
+    }
+
+    .comments .swiper-container .swiper-slide .slider-content,
+    .comments .swiper-container .swiper-slide .slider-image {
+        padding-left: 15px;
+    }
+
+    .comments .swiper-container .swiper-slide .slider-content {
+        flex: 1 0 0;
+    }
+}

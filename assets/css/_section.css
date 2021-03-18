@@ -1,0 +1,191 @@
+@media screen and (min-width: 1024px) {
+    /* @HERO SECTİON */
+    .hero-section {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .hero-section .hero-image {
+        padding-top: 80px;
+    }
+
+    .hero-section .hero-content h1 {
+        max-width: 645px;
+        font-size: 80px;
+    }
+
+    .hero-section .hero-content p {
+        width: 380px;
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+
+    .hero-section .hero-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    /* @Pink Section */
+    .features,
+    .pink-section {
+        margin-bottom: 150px;
+    }
+
+    .pink-section-content {
+        padding-right: 92px;
+    }
+
+    /* @Features */
+    .features h2 {
+        margin-bottom: 50px;
+    }
+
+    .features .card:before {
+        content: "";
+        display: block;
+        background-image: url("../img/green-background.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .features .section-header p {
+        width: 584px;
+        margin: 0 auto;
+    }
+    
+    .comments-background {
+        background-image: url("../img/testimonials.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 710px;
+        padding-top: 110px;
+        padding-left: 93px;
+    }
+
+    .comments .swiper-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 1024px)  {
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hero-section {
+        margin-bottom: 30px;
+    }
+
+    .hero-section .hero-content {
+        margin-bottom: 15px;
+    }
+
+    .pink-section {
+        margin-bottom: 30px;
+    }
+
+    .pink-section-background {
+        padding-bottom: 30px;
+    }
+
+    .swiper-container .swiper-slide {
+        flex: 0 0 100%;
+    }
+
+    .swiper-container .swiper-slide .slider-item-container .slider-image img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* @HERO SECTİON */
+.hero-section .hero-content h1 {
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #212353;
+}
+
+.hero-section .hero-content p {
+    color: #4B5D68;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* @Pink Section */
+.pink-section-background {
+    background-position: center;
+    background-image: url("../img/pink-backgrond.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pink-section h2 {
+    color: #212353;
+    font-weight: 700;
+    line-height: 52px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.pink-section p {
+    color: #4B5D68;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* @Features */
+
+.features .section-header h2 {
+    font-size: 40px;
+    color: #212353;
+    font-weight: 700;
+}
+
+.features .section-header p {
+    color: #4B5D68;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.features .section-header {
+    margin-bottom: 70px;
+}
+
+.features .card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.features .card-content {
+    flex: 1 0 0;
+}
+
+.features .card-image,
+.features .card-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* @Comments */
+.comments {
+    position: relative;
+    overflow: hidden;
+}
